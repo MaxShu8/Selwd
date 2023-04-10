@@ -15,7 +15,9 @@
 для элементов:
 
 //span[@class="text"]//li[@class="text-text"]/following-sibling::li - находит след. элемент с тегом li после указанного
+//span[@class="text"]//li[@class="text-text"]/following::li
 //span[@class="text"]//li[@class="text-text"]/preceding-sibling::li - находит предыд. элемент с тегом li после указанного (вместо последнего li можно указать звездочку "*")
+
 //li[@class="one" or @class="two" or @class="three"] - найти сразу несколько элементов
 //li[@class="one"]//h3[last()] - найти последний элемент
 //li[@class="one"]//h3[last()-1] - найти предпоследний элемент
